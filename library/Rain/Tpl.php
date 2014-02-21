@@ -237,7 +237,7 @@ class Tpl {
     protected function checkTemplate($template) {
 
         //sanitize directory separator
-		$template = str_replace(array('/', '\\'), DIRECTORY_SEPARATOR, $template);
+	$template = str_replace(array('/', '\\'), DIRECTORY_SEPARATOR, $template);
 		
         // set filename
         $templateName = basename($template);
